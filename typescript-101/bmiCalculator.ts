@@ -21,8 +21,8 @@ const calculateBmi = (heigth: number, weight: number): string => {
 		default:
 			return 'give decent values';
 	}
-}
+};
 console.log(calculateBmi(180, 74));
 
-export default calculateBmi
+export default calculateBmi;
 
